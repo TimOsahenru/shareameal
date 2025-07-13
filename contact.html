@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>404 - Tour Bootstrap Template</title>
+  <title>Contact - Tour Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="page-404">
+<body class="contact-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -65,7 +65,7 @@
               <li><a href="blog-details.html">Blog Details</a></li>
               <li><a href="terms.html">Terms</a></li>
               <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html" class="active">404</a></li>
+              <li><a href="404.html">404</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -85,7 +85,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -100,58 +100,58 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/travel/showcase-8.webp);">
       <div class="container position-relative">
-        <h1>404</h1>
+        <h1>Contact</h1>
         <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">404</li>
+            <li class="current">Contact</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Error 404 Section -->
-    <section id="error-404" class="error-404 section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="error-wrapper">
-          <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-              <div class="error-illustration">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-                <div class="circle circle-1"></div>
-                <div class="circle circle-2"></div>
-                <div class="circle circle-3"></div>
+        <!-- Contact Info Boxes -->
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="info-content">
+                <h4>Our Address</h4>
+                <p>1842 Maple Avenue, Portland, Oregon 97204</p>
               </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div class="error-content">
-                <span class="error-badge" data-aos="zoom-in" data-aos-delay="400">Error</span>
-                <h1 class="error-code" data-aos="fade-up" data-aos-delay="500">404</h1>
-                <h2 class="error-title" data-aos="fade-up" data-aos-delay="600">Page Not Found</h2>
-                <p class="error-description" data-aos="fade-up" data-aos-delay="700">
-                  The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
-                </p>
+          </div>
 
-                <div class="error-actions" data-aos="fade-up" data-aos-delay="800">
-                  <a href="/" class="btn-home">
-                    <i class="bi bi-house-door"></i> Back to Home
-                  </a>
-                  <a href="#" class="btn-help">
-                    <i class="bi bi-question-circle"></i> Help Center
-                  </a>
-                </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h4>Email Address</h4>
+                <p>info@example.com</p>
+                <p>contact@example.com</p>
+              </div>
+            </div>
+          </div>
 
-                <div class="error-suggestions" data-aos="fade-up" data-aos-delay="900">
-                  <h3>You might want to:</h3>
-                  <ul>
-                    <li><a href="#"><i class="bi bi-arrow-right-circle"></i> Check our sitemap</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-right-circle"></i> Contact support</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-right-circle"></i> Return to previous page</a></li>
-                  </ul>
-                </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-info-box">
+              <div class="icon-box">
+                <i class="bi bi-headset"></i>
+              </div>
+              <div class="info-content">
+                <h4>Hours of Operation</h4>
+                <p>Sunday-Fri: 9 AM - 6 PM</p>
+                <p>Saturday: 9 AM - 4 PM</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,74 @@
 
       </div>
 
-    </section><!-- /Error 404 Section -->
+      <!-- Google Maps (Full Width) -->
+      <div class="map-section" data-aos="fade-up" data-aos-delay="200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Contact Form Section (Overlapping) -->
+      <div class="container form-container-overlap">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-10">
+            <div class="contact-form-wrapper">
+              <h2 class="text-center mb-4">Get in Touch</h2>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-person"></i>
+                        <input type="text" class="form-control" name="name" placeholder="First Name" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-text-left"></i>
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-group">
+                      <div class="input-with-icon">
+                        <i class="bi bi-chat-dots message-icon"></i>
+                        <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required=""></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
 
   </main>
 
