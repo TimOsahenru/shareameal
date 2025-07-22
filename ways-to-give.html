@@ -4,257 +4,114 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Share a meal Nigeria</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Ways to Give - Share A Meal Nigeria</title>
+  <meta name="description" content="Discover multiple ways to support Share A Meal Nigeria's hunger relief efforts through donations, partnerships, and planned giving">
+  <meta name="keywords" content="donate to charity Nigeria, fight hunger Lagos, food donation Nigeria">
 
   <!-- Fonts -->
-   <style>
-    .about-section {
-  padding: 80px 0;
-}
-
-.about-content .section-subtitle {
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #28a745;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
-.about-content .section-title {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #222;
-}
-
-.about-content .section-description {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.7;
-}
-
-.btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
-  padding: 10px 20px;
-  font-weight: 600;
-  border-radius: 5px;
-}
-
-.nav-tabs {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 1.5rem;
-}
-
-.nav-tabs .nav-link {
-  color: rgba(255, 255, 255, 0.7); 
-  background: transparent;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
-  position: relative;
-  margin-right: 0.5rem;
-}
-
-/* Active Tab */
-.nav-tabs .nav-link.active {
-  color: #fff;
-  background: transparent;
-  border: none;
-}
-
-.nav-tabs .nav-link.active::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: #4CAF50;
-  border-radius: 3px 3px 0 0;
-}
-
-.nav-tabs .nav-link:hover:not(.active) {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.dark-background .form-control,
-.dark-background .form-select {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
-}
-
-.dark-background .form-control::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-#once-custom,
-#monthly-custom {
-  transition: all 0.3s ease;
-}
-/* Programs Section Styles */
-.programs-section {
-  padding: 80px 0;
-  background-color: #f8f9fa;
-}
-
-.program-card {
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-}
-
-.program-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-.program-image {
-  position: relative;
-  height: 200px;
-  overflow: hidden;
-}
-
-.program-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.program-card:hover .program-image img {
-  transform: scale(1.05);
-}
-
-.program-badge {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #e63946;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.program-badge.primary {
-  background: #e63946;
-}
-.program-badge.sustainable {
-  background: #2a9d8f;
-}
-.program-badge.urgent {
-  background: #f4a261;
-}
-.program-badge.rapid {
-  background: #e76f51;
-}
-.program-badge.health {
-  background: #457b9d;
-}
-.program-badge.new {
-  background: #7209b7;
-}
-
-.program-content {
-  padding: 20px;
-}
-
-.program-content h4 {
-  color: #2a6f97;
-  margin-bottom: 10px;
-}
-
-.program-meta {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-  font-size: 13px;
-  color: #6c757d;
-}
-
-.program-meta i {
-  margin-right: 5px;
-}
-
-.program-content p {
-  color: #495057;
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-
-.program-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 15px;
-}
-
-.program-highlights span {
-  background: #e9f5ff;
-  color: #2a6f97;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 12px;
-}
-
-.program-action {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.btn-learn {
-  background: #e63946;
-  color: white;
-  padding: 8px 20px;
-  border-radius: 30px;
-  font-size: 14px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.btn-learn:hover {
-  background: #c1121f;
-  color: white;
-  text-decoration: none;
-}
-
-.program-stats {
-  font-size: 13px;
-  color: #6c757d;
-}
-
-.program-stats i {
-  color: #e63946;
-  margin-right: 5px;
-}
-
-.btn-view-all {
-  display: inline-block;
-  background: white;
-  color: #e63946;
-  border: 2px solid #e63946;
-  padding: 10px 30px;
-  border-radius: 30px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.btn-view-all:hover {
-  background: #e63946;
-  color: white;
-  text-decoration: none;
-}
-   </style>
+  <style>
+    /* Enhanced Styles */
+    .ways-to-give-section {
+      padding: 60px 0;
+    }
+    
+    .give-hero {
+      padding: 100px 0;
+      background-position: center;
+      border-radius: 12px;
+      margin-bottom: 60px;
+    }
+    
+    .give-hero h1 {
+      font-size: 2.8rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    
+    .give-hero p.lead {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+    }
+    
+    .give-icon {
+      color: #28a745;
+      font-size: 2.5rem;
+    }
+    
+    .impact-stats, .benefits {
+      background-color: rgba(40, 167, 69, 0.1) !important;
+      border-left: 3px solid #28a745;
+    }
+    
+    .planned-giving-section, .tribute-giving {
+      border-radius: 12px;
+    }
+    
+    .contact-card {
+      transition: all 0.3s ease;
+    }
+    
+    .contact-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .icon-wrapper {
+      transition: all 0.3s ease;
+    }
+    
+    .icon-wrapper:hover {
+      background-color: rgba(40, 167, 69, 0.2) !important;
+      transform: rotate(10deg);
+    }
+    
+    /* Impact Counter */
+    .impact-counter {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/impact-bg.jpg');
+      background-size: cover;
+      padding: 60px 0;
+      color: white;
+      border-radius: 12px;
+      margin: 40px 0;
+    }
+    
+    .counter-item {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .counter-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #28a745;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .give-hero {
+        padding: 60px 0;
+      }
+      
+      .give-hero h1 {
+        font-size: 2rem;
+      }
+      
+      .give-hero p.lead {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -271,28 +128,27 @@
 
 </head>
 
-<body class="index-page">
-
+<body class="ways-to-give-page">
 
 <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <h1 class="sitename">share a meal</h1>
+      <h1 class="sitename">Share A Meal</h1>
     </a>
 
     <!-- Navigation Menu -->
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="ways-to-give.html">Ways to Give</a></li>
+        <li><a href="ways-to-give.html" class="active">Ways to Give</a></li>
         <li><a href="what-we-do.html">Get Involved</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <a class="btn-getstarted" href="#">DONATE NOW</a>
+    <a class="btn-getstarted" href="donate.html">DONATE NOW</a>
 
     <!-- Mobile Toggle Button -->
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -306,9 +162,43 @@
 <section id="ways-to-give" class="ways-to-give-section section">
   <div class="container">
     <!-- Hero Banner -->
-    <div class="give-hero text-center py-5 mb-5" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/18.jpeg'); background-size: cover; color: white; border-radius: 10px;">
-      <h1 class="display-4 fw-bold mb-3">Ways to Give</h1>
-      <p class="lead">Your generosity fuels our mission to fight hunger and change lives</p>
+    <div class="give-hero text-center py-5 mb-5" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/18.jpeg'); background-size: cover; background-position: center; color: white;">
+      <h1 class="display-4 fw-bold mb-3">Transform Lives Through Giving</h1>
+      <p class="lead">Every contribution helps us provide meals and hope to families across Nigeria</p>
+      <div class="mt-4">
+        <a href="#donate-now" class="btn btn-success btn-lg mx-2">Give Now</a>
+        <a href="#monthly-giving" class="btn btn-outline-light btn-lg mx-2">Become Monthly Donor</a>
+      </div>
+    </div>
+
+    <!-- Impact Counter -->
+    <div class="impact-counter mb-5" data-aos="fade-up">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="counter-item">
+            <div class="counter-number" data-count="25000">0</div>
+            <p>Meals Served Monthly</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter-item">
+            <div class="counter-number" data-count="120">0</div>
+            <p>Communities Reached</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter-item">
+            <div class="counter-number" data-count="5000">0</div>
+            <p>Children Fed</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter-item">
+            <div class="counter-number" data-count="150">0</div>
+            <p>Dedicated Volunteers</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Immediate Giving Options -->
@@ -317,19 +207,19 @@
         <div class="card h-100 shadow-sm">
           <div class="card-body p-4">
             <div class="give-icon mb-3">
-              <i class="bi bi-gift-fill text-success fs-1"></i>
+              <i class="bi bi-gift-fill"></i>
             </div>
-            <h3 class="card-title">Donate Now</h3>
-            <p class="card-text">Give meals and hope to a family in need. Every ₦1,000 provides up to 5 meals for a family in need.</p>
+            <h3 class="card-title">One-Time Donation</h3>
+            <p class="card-text">Your single gift provides immediate relief to families facing food insecurity across Nigeria.</p>
             <div class="impact-stats bg-light p-3 rounded mb-3">
               <p class="mb-1"><strong>Your Impact:</strong></p>
               <ul class="ps-3">
-                <li>₦10,000 feeds a family for a week</li>
-                <li>₦50,000 provides a month of meals</li>
-                <li>₦100,000 supports emergency food relief</li>
+                <li>₦5,000 provides 25 meals</li>
+                <li>₦20,000 feeds a family for a month</li>
+                <li>₦100,000 supports a community feeding program</li>
               </ul>
             </div>
-            <!-- <a href="#donate-now" class="btn btn-success">Give One-Time Gift</a> -->
+            <a href="donate.html" class="btn btn-success">Give Now</a>
           </div>
         </div>
       </div>
@@ -338,19 +228,77 @@
         <div class="card h-100 shadow-sm">
           <div class="card-body p-4">
             <div class="give-icon mb-3">
-              <i class="bi bi-arrow-repeat text-success fs-1"></i>
+              <i class="bi bi-arrow-repeat"></i>
             </div>
-            <h3 class="card-title">Donate Monthly</h3>
-            <p class="card-text">Join our community of monthly givers providing consistent support to fight hunger year-round.</p>
+            <h3 class="card-title">Monthly Sustainer</h3>
+            <p class="card-text">Join our Hope Circle with automatic monthly donations that provide consistent support.</p>
             <div class="benefits bg-light p-3 rounded mb-3">
               <p class="mb-1"><strong>Monthly Giving Benefits:</strong></p>
               <ul class="ps-3">
-                <li>Sustained impact on hunger relief</li>
                 <li>Convenient automatic donations</li>
-                <li>Exclusive updates on your impact</li>
+                <li>Quarterly impact reports</li>
+                <li>Invitation to exclusive events</li>
+                <li>Sustained impact on hunger relief</li>
               </ul>
             </div>
-            <!-- <a href="#monthly-giving" class="btn btn-success">Become a Monthly Donor</a> -->
+            <a href="donate.html?type=monthly" class="btn btn-success">Become a Monthly Donor</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Donation Tiers -->
+    <div class="donation-tiers mb-5" data-aos="fade-up">
+      <h2 class="text-center mb-4">Choose Your Impact Level</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center">
+            <div class="card-header bg-success text-white py-3">
+              <h4>Basic Needs</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title pricing-card-title">₦5,000<small class="text-muted fw-light">/month</small></h3>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Provides 25 meals</li>
+                <li>Supports one child for a week</li>
+                <li>Monthly impact report</li>
+              </ul>
+              <a href="#" class="btn btn-outline-success">Select</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center border-success">
+            <div class="card-header bg-white text-success py-3 border-success">
+              <h4>Family Support</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title pricing-card-title">₦20,000<small class="text-muted fw-light">/month</small></h3>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Feeds a family for a month</li>
+                <li>Supports education programs</li>
+                <li>Quarterly impact calls</li>
+                <li>Recognition in annual report</li>
+              </ul>
+              <a href="#" class="btn btn-success">Select</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center">
+            <div class="card-header bg-success text-white py-3">
+              <h4>Community Champion</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title pricing-card-title">₦100,000<small class="text-muted fw-light">/month</small></h3>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Supports an entire community</li>
+                <li>VIP event invitations</li>
+                <li>Personalized impact reports</li>
+                <li>Naming opportunity</li>
+              </ul>
+              <a href="#" class="btn btn-outline-success">Select</a>
+            </div>
           </div>
         </div>
       </div>
@@ -360,74 +308,73 @@
     <div class="planned-giving-section mb-5 py-5 px-4 rounded-3" style="background-color: #f8f9fa;">
       <div class="row align-items-center">
         <div class="col-lg-6 mb-4" data-aos="fade-right">
-          <h2 class="mb-4">Planned Giving</h2>
-          <p class="lead">Leave a legacy that fights hunger for generations to come</p>
-          <p>A planned gift to Share A Meal Charitable Foundation is more than a donation—it's a promise to care for future generations. Your gift will provide meals, dignity, and hope to regions in need across all nations.</p>
+          <h2 class="mb-4">Create a Lasting Legacy</h2>
+          <p class="lead">Your planned gift ensures the fight against hunger continues for generations</p>
+          <p>Through thoughtful estate planning, you can make a significant future impact on Share A Meal's mission while potentially receiving tax benefits today.</p>
           <div class="accordion" id="plannedGivingAccordion">
-            <div class="accordion-item">
+            <div class="accordion-item border-0 mb-3">
               <h3 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                  Wills & Living Trusts
+                <button class="accordion-button bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  <i class="bi bi-file-text me-2"></i> Wills & Trusts
                 </button>
               </h3>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body">
-                  <p>A gift in your will is a simple yet meaningful way to support our mission to fight hunger long into the future. You can complete your gift by including just one sentence in your will.</p>
+                <div class="accordion-body bg-white rounded-bottom">
+                  <p>Include Share A Meal in your estate plans to create a lasting legacy of fighting hunger.</p>
                   <p><strong>Sample Bequest Language:</strong></p>
-                  <p class="bg-light p-3 rounded">"I give, devise, and bequeath to Share A Meal Charitable Foundation, a nonprofit organization located at [address], the sum of $____ or ____% of my estate to be used for its general charitable purposes."</p>
+                  <p class="bg-light p-3 rounded">"I give to Share A Meal Nigeria, a nonprofit organization registered in Lagos, Nigeria, the sum of ₦______ [or __% of my estate] to be used for its general charitable purposes."</p>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item border-0 mb-3">
               <h3 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                  Beneficiary Designations
+                <button class="accordion-button collapsed bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  <i class="bi bi-piggy-bank me-2"></i> Retirement Assets
                 </button>
               </h3>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body">
-                  <p>Name Share A Meal Charitable Foundation as a beneficiary of retirement accounts, life insurance policies, or commercial annuities.</p>
+                <div class="accordion-body bg-white rounded-bottom">
+                  <p>Name Share A Meal as a beneficiary of your retirement plan for a tax-efficient gift.</p>
                   <ol>
-                    <li>Request a change-of-beneficiary form from your plan administrator</li>
-                    <li>Choose what percentage (1%-100%) to leave to Share A Meal</li>
-                    <li>Return the completed form to your provider</li>
+                    <li>Contact your plan administrator</li>
+                    <li>Request a beneficiary designation form</li>
+                    <li>List Share A Meal Nigeria as beneficiary</li>
                   </ol>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item border-0">
               <h3 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                  Charitable Gift Annuities
+                <button class="accordion-button collapsed bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  <i class="bi bi-gem me-2"></i> Endowment Gifts
                 </button>
               </h3>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body">
-                  <p>Receive fixed payments for life while supporting our mission. A charitable gift annuity provides:</p>
+                <div class="accordion-body bg-white rounded-bottom">
+                  <p>Create a permanent fund that provides ongoing support through investment income.</p>
                   <ul>
-                    <li>Fixed payments for life (based on your age)</li>
-                    <li>Potential tax benefits</li>
-                    <li>The satisfaction of making a lasting impact</li>
+                    <li>Minimum endowment: ₦5,000,000</li>
+                    <li>Named endowment opportunities</li>
+                    <li>Annual impact reporting</li>
                   </ul>
-                  <a href="#contact" class="btn btn-outline-success">Request Information</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6" data-aos="fade-left">
-          <div class="card shadow-sm border-0">
-            <div class="card-body p-4 text-center">
-              <h4 class="mb-4">Ready to create your legacy?</h4>
-              <p class="mb-4">Contact our Director of Philanthropy to discuss planned giving options:</p>
-              <div class="contact-card bg-light p-4 rounded mb-4">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body p-4 text-center d-flex flex-column">
+              <h4 class="mb-4">Request Your Free Guide</h4>
+              <p class="mb-4">Download our "Legacy Giving Guide" to learn how to maximize your impact through planned giving.</p>
+              <div class="contact-card bg-light p-4 rounded mb-4 flex-grow-1">
                 <img src="assets/img/stella-martins.jpg" alt="Stella Martins" class="rounded-circle mb-3" width="100">
                 <h5>Stella Martins</h5>
-                <p class="text-muted">Director of Philanthropy & Planned Giving</p>
-                <p class="mb-1"><i class="bi bi-envelope me-2"></i> stella.M@shareameal.org</p>
-                <p><i class="bi bi-phone me-2"></i> +234 456 7890</p>
+                <p class="text-muted">Director of Philanthropy</p>
+                <p class="mb-1"><i class="bi bi-envelope me-2"></i> stella@shareameal.org</p>
+                <p><i class="bi bi-phone me-2"></i> +234 907 767 3577</p>
               </div>
-              <!-- <a href="#contact" class="btn btn-success w-100">Start the Conversation</a> -->
+              <a href="#" class="btn btn-success mt-auto">Download Guide</a>
             </div>
           </div>
         </div>
@@ -442,10 +389,11 @@
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
-                <i class="bi bi-building fs-4"></i>
+                <i class="bi bi-people-fill fs-4"></i>
               </div>
               <h5>Employee Engagement</h5>
-              <p>Team volunteer opportunities, workplace giving campaigns, and matching gift programs.</p>
+              <p class="mb-4">Matching gifts, volunteer days, and workplace giving campaigns that boost morale and impact.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Learn More</a>
             </div>
           </div>
         </div>
@@ -453,10 +401,11 @@
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
-                <i class="bi bi-megaphone fs-4"></i>
+                <i class="bi bi-shop fs-4"></i>
               </div>
-              <h5>Cause Marketing</h5>
-              <p>Partner with us on campaigns that align your brand with hunger relief efforts.</p>
+              <h5>Product Donations</h5>
+              <p class="mb-4">Donate surplus food, products or services to support our programs and receive tax benefits.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Learn More</a>
             </div>
           </div>
         </div>
@@ -464,46 +413,50 @@
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-circle mx-auto mb-3" style="width: 60px; height: 60px; line-height: 60px;">
-                <i class="bi bi-star fs-4"></i>
+                <i class="bi bi-megaphone fs-4"></i>
               </div>
-              <h5>Event Sponsorship</h5>
-              <p>Support our annual events and receive prominent brand visibility.</p>
+              <h5>Sponsorships</h5>
+              <p class="mb-4">Align your brand with our mission through event sponsorships and cause marketing campaigns.</p>
+              <a href="#" class="btn btn-sm btn-outline-success">Learn More</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center mt-4">
-        <!-- <a href="#corpo" class="btn btn-success px-4">Explore Partnership Opportunities</a> -->
-      </div>
     </div>
 
     <!-- Tribute Giving Section -->
-    <div class="tribute-giving py-5 px-4 rounded-3" style="background-color: #e8f5e9;">
+    <div class="tribute-giving py-5 px-4 rounded-3 mb-5" style="background-color: #e8f5e9;">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-4" data-aos="fade-right">
           <img src="assets/img/24.jpeg" alt="Tribute Giving" class="img-fluid rounded shadow">
         </div>
         <div class="col-lg-7" data-aos="fade-left">
-          <h2 class="mb-4">Tribute Giving</h2>
-          <p class="lead">Celebrate someone special while feeding those in need</p>
-          <p>Honor friends and loved ones with a meaningful gift that provides nourishment and hope to families facing hunger.</p>
+          <h2 class="mb-4">Honor Someone Special</h2>
+          <p class="lead">Celebrate life's milestones by giving the gift of nourishment</p>
+          <p>Create a meaningful tribute that honors your loved ones while helping families in need.</p>
           
           <div class="row mt-4">
             <div class="col-md-6 mb-3">
               <div class="card h-100 border-0 bg-white shadow-sm">
                 <div class="card-body p-3">
-                  <h5 class="card-title"><i class="bi bi-gift text-success me-2"></i> Honorary Gifts</h5>
-                  <p class="card-text">Celebrate birthdays, weddings, graduations or other milestones.</p>
-                  <!-- <a href="#honorary" class="btn btn-sm btn-outline-success">Give in Honor</a> -->
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-gift text-success me-2 fs-4"></i>
+                    <h5 class="card-title mb-0">Celebratory Gifts</h5>
+                  </div>
+                  <p class="card-text">Mark birthdays, weddings, anniversaries or achievements with a gift that gives back.</p>
+                  <a href="#" class="btn btn-sm btn-outline-success mt-2">Give in Celebration</a>
                 </div>
               </div>
             </div>
             <div class="col-md-6 mb-3">
               <div class="card h-100 border-0 bg-white shadow-sm">
                 <div class="card-body p-3">
-                  <h5 class="card-title"><i class="bi bi-flower1 text-success me-2"></i> Memorial Gifts</h5>
-                  <p class="card-text">Honor the memory of someone special while helping others.</p>
-                  <!-- <a href="#memorial" class="btn btn-sm btn-outline-success">Give in Memory</a> -->
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-flower1 text-success me-2 fs-4"></i>
+                    <h5 class="card-title mb-0">Memorial Gifts</h5>
+                  </div>
+                  <p class="card-text">Honor the memory of a loved one while helping others in their name.</p>
+                  <a href="#" class="btn btn-sm btn-outline-success mt-2">Give in Memory</a>
                 </div>
               </div>
             </div>
@@ -514,23 +467,29 @@
 
     <!-- Other Ways to Give Section -->
     <div class="other-ways mt-5">
-      <h2 class="text-center mb-5">Other Ways to Support Our Mission</h2>
+      <h2 class="text-center mb-5">More Ways to Support</h2>
       <div class="row g-4">
         <div class="col-md-6" data-aos="fade-up">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body p-4">
-              <h4 class="card-title"><i class="bi bi-currency-exchange text-success me-2"></i> Donor Advised Funds</h4>
-              <p class="card-text">Recommend grants to Share A Meal Charitable Foundation from your donor-advised fund (DAF).</p>
-              <a href="#" class="btn btn-outline-success">Learn More</a>
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-currency-exchange text-success me-3 fs-3"></i>
+                <h4 class="card-title mb-0">Donor Advised Funds</h4>
+              </div>
+              <p class="card-text">Recommend grants to Share A Meal from your donor-advised fund (DAF) for a tax-smart giving solution.</p>
+              <a href="#" class="btn btn-outline-success">How It Works</a>
             </div>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body p-4">
-              <h4 class="card-title"><i class="bi bi-heart text-success me-2"></i> Fundraise for Us</h4>
-              <p class="card-text">Create a personal fundraiser to support our mission through special events or celebrations.</p>
-              <a href="#" class="btn btn-outline-success">Learn More</a>
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-heart text-success me-3 fs-3"></i>
+                <h4 class="card-title mb-0">Fundraise for Us</h4>
+              </div>
+              <p class="card-text">Create a personal fundraiser for your birthday, marathon, or special occasion to support our mission.</p>
+              <a href="#" class="btn btn-outline-success">Start Fundraising</a>
             </div>
           </div>
         </div>
@@ -546,12 +505,12 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="/" class="d-flex align-items-center">
-            <span class="sitename">Share a meal</span>
+            <span class="sitename">Share A Meal</span>
           </a>
           <div class="footer-contact pt-3">
-            <p> No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.</p>
+            <p>No.1 TOPA Close, ONOSA, Ibeju Lekki, Lagos State.</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+234 907 767 3577</span></p>
-            <p><strong>Email:</strong> <span>info@sharemeal.com</span></p>
+            <p><strong>Email:</strong> <span>info@shareameal.org</span></p>
           </div>
         </div>
 
@@ -560,32 +519,35 @@
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="about.html">About Us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="what-we-do.html">What we do</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="what-we-do.html">Our Programs</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="ways-to-give.html">Ways to Give</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Contact</a></li>
           </ul>
         </div>
 
-     <div class="col-lg-4 col-md-12">
-  <h4>Follow Us</h4>
-  <p>Stay connected and be part of our journey. Follow us on social media for updates, stories, and ways to get involved.</p>
-  <div class="social-links d-flex">
-    <a href="#"><i class="bi bi-twitter-x"></i></a>
-    <a href="#"><i class="bi bi-facebook"></i></a>
-    <a href="#"><i class="bi bi-instagram"></i></a>
-    <a href="#"><i class="bi bi-linkedin"></i></a>
-  </div>
-</div>
-
-
+        <div class="col-lg-4 col-md-12">
+          <h4>Join Our Community</h4>
+          <p>Stay updated on our impact and learn how you can help fight hunger in Nigeria.</p>
+          <div class="social-links d-flex">
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+          <div class="mt-3">
+            <a href="#" class="btn btn-outline-light btn-sm">Subscribe to Newsletter</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> 2025 <strong class="px-1 sitename">share a meal</strong> <span>All Rights Reserved</span></p>
+    <!-- <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <script>document.write(new Date().getFullYear())</script> <strong class="px-1 sitename">Share A Meal Nigeria</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
+        <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
       </div>
-    </div>
+    </div> -->
 
   </footer>
 
@@ -597,7 +559,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -609,7 +570,36 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Impact Counter Animation -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const counters = document.querySelectorAll('.counter-number');
+      const speed = 200;
+      
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-count');
+        const count = +counter.innerText;
+        const increment = target / speed;
+        
+        if(count < target) {
+          counter.innerText = Math.ceil(count + increment);
+          setTimeout(updateCount, 1);
+        } else {
+          counter.innerText = target;
+        }
+        
+        function updateCount() {
+          const count = +counter.innerText;
+          if(count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 1);
+          } else {
+            counter.innerText = target;
+          }
+        }
+      });
+    });
+  </script>
+
 </body>
-
 </html>
-
