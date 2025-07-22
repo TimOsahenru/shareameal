@@ -97,6 +97,38 @@
       color: #28a745;
     }
     
+    /* Bank Details Styles */
+    .bank-details {
+      background-color: #f8f9fa;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 40px 0;
+    }
+    
+    .bank-details h3 {
+      color: #28a745;
+      margin-bottom: 20px;
+    }
+    
+    .bank-details-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .bank-details-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .bank-details-list li:last-child {
+      border-bottom: none;
+    }
+    
+    .bank-details-list strong {
+      display: inline-block;
+      width: 150px;
+    }
+    
     /* Responsive Adjustments */
     @media (max-width: 768px) {
       .give-hero {
@@ -109,6 +141,16 @@
       
       .give-hero p.lead {
         font-size: 1.1rem;
+      }
+      
+      .bank-details-list li {
+        padding: 15px 0;
+      }
+      
+      .bank-details-list strong {
+        display: block;
+        width: auto;
+        margin-bottom: 5px;
       }
     }
   </style>
@@ -148,7 +190,7 @@
       </ul>
     </nav>
 
-    <a class="btn-getstarted" href="donate.html">DONATE NOW</a>
+    <a class="btn-getstarted" href="https://www.paypal.com/paypalme/dagogopollyn">DONATE NOW</a>
 
     <!-- Mobile Toggle Button -->
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -201,6 +243,28 @@
       </div>
     </div>
 
+    <!-- Bank Transfer Details -->
+    <div class="bank-details" data-aos="fade-up">
+      <h3 class="text-center">Direct Bank Transfer</h3>
+      <p class="text-center mb-4">You can make direct donations to our account while we finalize the Share A Meal account setup.</p>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <ul class="bank-details-list">
+            <li><strong>Account Name:</strong> Dagogo Pollyn Foundation</li>
+            <li><strong>Account Number:</strong> 1911981266</li>
+            <li><strong>Bank Name:</strong> Access Bank</li>
+            <li><strong>Note:</strong> This is a temporary account for Share A Meal donations</li>
+          </ul>
+          
+          <div class="text-center mt-4">
+            <a href="https://www.paypal.com/paypalme/dagogopollyn" class="btn btn-success me-2">Donate via PayPal</a>
+            <a href="contact.html" class="btn btn-outline-success">Need Help?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Immediate Giving Options -->
     <div class="row mb-5">
       <div class="col-lg-6 mb-4" data-aos="fade-up">
@@ -219,7 +283,7 @@
                 <li>₦100,000 supports a community feeding program</li>
               </ul>
             </div>
-            <a href="donate.html" class="btn btn-success">Give Now</a>
+            <a href="#bank-transfer" class="btn btn-success">Give Now</a>
           </div>
         </div>
       </div>
@@ -241,7 +305,7 @@
                 <li>Sustained impact on hunger relief</li>
               </ul>
             </div>
-            <a href="donate.html?type=monthly" class="btn btn-success">Become a Monthly Donor</a>
+            <a href="#bank-transfer" class="btn btn-success">Become a Monthly Donor</a>
           </div>
         </div>
       </div>
@@ -263,7 +327,7 @@
                 <li>Supports one child for a week</li>
                 <li>Monthly impact report</li>
               </ul>
-              <a href="#" class="btn btn-outline-success">Select</a>
+              <a href="#bank-transfer" class="btn btn-outline-success">Select</a>
             </div>
           </div>
         </div>
@@ -280,7 +344,7 @@
                 <li>Quarterly impact calls</li>
                 <li>Recognition in annual report</li>
               </ul>
-              <a href="#" class="btn btn-success">Select</a>
+              <a href="#bank-transfer" class="btn btn-success">Select</a>
             </div>
           </div>
         </div>
@@ -297,89 +361,12 @@
                 <li>Personalized impact reports</li>
                 <li>Naming opportunity</li>
               </ul>
-              <a href="#" class="btn btn-outline-success">Select</a>
+              <a href="#bank-transfer" class="btn btn-outline-success">Select</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Planned Giving Section -->
-    <!-- <div class="planned-giving-section mb-5 py-5 px-4 rounded-3" style="background-color: #f8f9fa;">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mb-4" data-aos="fade-right">
-          <h2 class="mb-4">Create a Lasting Legacy</h2>
-          <p class="lead">Your planned gift ensures the fight against hunger continues for generations</p>
-          <p>Through thoughtful estate planning, you can make a significant future impact on Share A Meal's mission while potentially receiving tax benefits today.</p>
-          <div class="accordion" id="plannedGivingAccordion">
-            <div class="accordion-item border-0 mb-3">
-              <h3 class="accordion-header" id="headingOne">
-                <button class="accordion-button bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                  <i class="bi bi-file-text me-2"></i> Wills & Trusts
-                </button>
-              </h3>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body bg-white rounded-bottom">
-                  <p>Include Share A Meal in your estate plans to create a lasting legacy of fighting hunger.</p>
-                  <p><strong>Sample Bequest Language:</strong></p>
-                  <p class="bg-light p-3 rounded">"I give to Share A Meal Nigeria, a nonprofit organization registered in Lagos, Nigeria, the sum of ₦______ [or __% of my estate] to be used for its general charitable purposes."</p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item border-0 mb-3">
-              <h3 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                  <i class="bi bi-piggy-bank me-2"></i> Retirement Assets
-                </button>
-              </h3>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body bg-white rounded-bottom">
-                  <p>Name Share A Meal as a beneficiary of your retirement plan for a tax-efficient gift.</p>
-                  <ol>
-                    <li>Contact your plan administrator</li>
-                    <li>Request a beneficiary designation form</li>
-                    <li>List Share A Meal Nigeria as beneficiary</li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item border-0">
-              <h3 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed bg-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                  <i class="bi bi-gem me-2"></i> Endowment Gifts
-                </button>
-              </h3>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#plannedGivingAccordion">
-                <div class="accordion-body bg-white rounded-bottom">
-                  <p>Create a permanent fund that provides ongoing support through investment income.</p>
-                  <ul>
-                    <li>Minimum endowment: ₦5,000,000</li>
-                    <li>Named endowment opportunities</li>
-                    <li>Annual impact reporting</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <div class="card shadow-sm border-0 h-100">
-            <div class="card-body p-4 text-center d-flex flex-column">
-              <h4 class="mb-4">Request Your Free Guide</h4>
-              <p class="mb-4">Download our "Legacy Giving Guide" to learn how to maximize your impact through planned giving.</p>
-              <div class="contact-card bg-light p-4 rounded mb-4 flex-grow-1">
-                <img src="assets/img/" alt="Stella Martins" class="rounded-circle mb-3" width="100">
-                <h5>Stella Martins</h5>
-                <p class="text-muted">Director of Philanthropy</p>
-                <p class="mb-1"><i class="bi bi-envelope me-2"></i> stella@shareameal.org</p>
-                <p><i class="bi bi-phone me-2"></i> +234 907 767 3577</p>
-              </div>
-              <a href="#" class="btn btn-success mt-auto">Download Guide</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Corporate Giving Section -->
     <div class="corporate-giving mb-5">
@@ -444,7 +431,7 @@
                     <h5 class="card-title mb-0">Celebratory Gifts</h5>
                   </div>
                   <p class="card-text">Mark birthdays, weddings, anniversaries or achievements with a gift that gives back.</p>
-                  <a href="#" class="btn btn-sm btn-outline-success mt-2">Give in Celebration</a>
+                  <a href="#bank-transfer" class="btn btn-sm btn-outline-success mt-2">Give in Celebration</a>
                 </div>
               </div>
             </div>
@@ -456,7 +443,7 @@
                     <h5 class="card-title mb-0">Memorial Gifts</h5>
                   </div>
                   <p class="card-text">Honor the memory of a loved one while helping others in their name.</p>
-                  <a href="#" class="btn btn-sm btn-outline-success mt-2">Give in Memory</a>
+                  <a href="#bank-transfer" class="btn btn-sm btn-outline-success mt-2">Give in Memory</a>
                 </div>
               </div>
             </div>
@@ -474,10 +461,10 @@
             <div class="card-body p-4">
               <div class="d-flex align-items-center mb-3">
                 <i class="bi bi-currency-exchange text-success me-3 fs-3"></i>
-                <h4 class="card-title mb-0">Donor Advised Funds</h4>
+                <h4 class="card-title mb-0">Bank Transfers</h4>
               </div>
-              <p class="card-text">Recommend grants to Share A Meal from your donor-advised fund (DAF) for a tax-smart giving solution.</p>
-              <a href="#" class="btn btn-outline-success">How It Works</a>
+              <p class="card-text">Make direct transfers to our temporary account while we finalize the Share A Meal account setup.</p>
+              <a href="#bank-transfer" class="btn btn-outline-success">View Account Details</a>
             </div>
           </div>
         </div>
